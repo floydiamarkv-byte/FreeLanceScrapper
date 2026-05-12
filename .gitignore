@@ -1,0 +1,28 @@
+# Environment and credentials
+.env
+*.env
+.env.local
+.env.production
+
+# Google Drive API OAuth
+credentials.json
+token.json
+
+# Cookies (sensitive)
+*_cookies.json
+
+# Scraped data (large/sensitive)
+data/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
