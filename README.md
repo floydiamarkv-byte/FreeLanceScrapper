@@ -1,3 +1,9 @@
+<div align="center">
+
+![FreeLanceScrapper banner](assets/banner.png)
+
+</div>
+
 # FreeLanceScrapper
 
 **AI-Powered Freelance Market Intelligence Pipeline**
