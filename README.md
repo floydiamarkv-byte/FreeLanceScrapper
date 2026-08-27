@@ -73,7 +73,7 @@ This pipeline runs daily (via `cron`) on a Proxmox LXC container and:
 ### Installation
 
 ```bash
-git clone https://github.com/eliuhads/FreeLanceScrapper.git
+git clone https://github.com/floydiamarkv-byte/FreeLanceScrapper.git
 cd FreeLanceScrapper
 pip install -r requirements.txt
 cp .env.example .env
@@ -147,10 +147,10 @@ Each report includes:
 
 ## 👤 Author
 
-**Eliú Hurtado** — Senior Infrastructure & Automation Engineer
+**Floydia / Eliú Hurtado** — Senior Infrastructure & Automation Engineer
 
 - 25+ years in IT infrastructure, network security, and automation
-- [GitHub](https://github.com/eliuhads)
+- [GitHub](https://github.com/floydiamarkv-byte)
 - [LinkedIn](https://linkedin.com/in/eliutec)
 
 ## 📄 License

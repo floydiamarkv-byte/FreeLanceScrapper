@@ -5,7 +5,7 @@
 # Ejecuta diariamente via cron a las 8AM
 # ===========================================
 
-PROJECT_DIR="/home/tec/Escritorio/ANTIGRAVITY PROJECTS/FREELANCER_ELIU"
+PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 VENV="$PROJECT_DIR/.venv/bin/python"
 LOG="$PROJECT_DIR/scraper.log"
 

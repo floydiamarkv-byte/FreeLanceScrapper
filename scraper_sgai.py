@@ -45,8 +45,15 @@ try:
 except ImportError:
     DDG_AVAILABLE = False
 
-# ─── Cargar credenciales ──────────────────────────────────────────────────────
-load_dotenv(Path(__file__).parent / ".env")
+# ─── Cargar credenciales de manera robusta ─────────────────────────────────────
+for env_path in [
+    Path(__file__).parent / ".env",
+    Path(__file__).parents[1] / ".env",
+    Path(__file__).parents[2] / ".env",
+]:
+    if env_path.exists():
+        load_dotenv(env_path)
+        break
 
 GROQ_API_KEY       = os.getenv("GROQ_API_KEY", "").strip('"')
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip('"')
